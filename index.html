@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Zar Atma Oyunu</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+         rel="stylesheet"
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rubik+Moonrocks&display=swap"
+         rel="stylesheet"
+      />
+      <link rel="stylesheet" href="main.css" />
+   </head>
+   <body>
+      <div class="container">
+         <div class="title"><h1>Zar Atma Oyunu</h1></div>
+         <div class="title2"><h3>Lütfen oyuncu isimlerini giriniz.</h3></div>
+
+         <div class="content">
+            <div class="plyr firstPlyr">
+               <div class="playername plyra"><h3>Oyuncu 1</h3></div>
+               <div class="dice dice1">
+                  <img src="images/dice1.png" alt="dice1" />
+               </div>
+               <div class="btn"><button id="btn1">Zar Salla</button></div>
+            </div>
+
+            <div class="buttons">
+               <button class="setplayer">Oyuncu İsmi gir</button>
+               <div>
+                  <h4 class="scoreTittle">Puan Tablosu</h5>
+                  <div class="scoretable1">
+                     <div ><h4 class="firstname"></h4>
+                        <div class="score score1">0</div>
+                     </div>
+                     <div><h4 class="secondname"></h4>
+                     <div class="score score2">0</div></div>
+                  </div>
+               </div>
+            </div>
+            <div class="plyr secondPlyr">
+               <div class="playername plyrb"><h3>Oyuncu 2</h3></div>
+               <div class="dice dice2">
+                  <img src="images/dice1.png" alt="zar2" />
+               </div>
+               <div class="btn"><button id="btn2">Zar Salla</button></div>
+            </div>
+         </div>
+         <div class="result"><h2></h2></div>
+      </div>
+      <footer><div class="foot">Designed by Cihan Yalçın</div></footer>
+      <script
+         src="https://code.jquery.com/jquery-3.6.0.js"
+         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+         crossorigin="anonymous"
+      ></script>
+      <script src="index.js"></script>
+   </body>
+</html>
